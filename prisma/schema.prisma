@@ -8,7 +8,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model  Members {
+model Members {
   id        String @id
   name      String
   function  String
